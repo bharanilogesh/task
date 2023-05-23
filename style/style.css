@@ -1,0 +1,142 @@
+@media screen and (max-width: 768px) {
+    }
+
+
+body {
+  padding: 0%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+nav li {
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+
+.link {
+  padding: 1rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: yellowgreen;;
+}
+
+.table {
+  padding: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #f2f2f2;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+dl {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+dd {
+  margin-bottom: 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.image-1 {
+  width: 15rem;
+  height: 15rem;
+}
+
+.image-2 {
+  width: 15rem;
+  height: 15rem;
+}
+
+.image-3 {
+  width: 15rem;
+  height: 15rem;
+}
+
+
+.accordion {
+  background-color: #f9f9f9;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ddd;
+}
+
+.accordion::after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active::after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
